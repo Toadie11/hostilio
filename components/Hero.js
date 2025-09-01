@@ -13,7 +13,12 @@ export default function Hero() {
             guaranteed.
           </p>
           <div className="space-x-4">
-            <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+            <button
+              onClick={() =>
+                window.open("https://ifastnet.com/?aff=31176", "_blank")
+              }
+              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300"
+            >
               Get Started Now
             </button>
             <Link href="#pricing" scroll={false}>

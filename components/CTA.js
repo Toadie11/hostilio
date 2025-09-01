@@ -9,7 +9,12 @@ export default function CTA() {
           Join thousands of satisfied customers who trust Hostilio with their
           websites
         </p>
-        <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+        <button
+          onClick={() =>
+            window.open("https://control.hostilio.cloud/", "_blank")
+          }
+          className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300"
+        >
           Start Your Website Today
         </button>
       </div>

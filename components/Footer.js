@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer id="footer" className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-2">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Company Info */}
@@ -51,10 +51,9 @@ export default function Footer() {
               </a>
             </div>
           </div>
-
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-6">
+            {/* <h4 className="text-lg font-semibold text-white mb-6">
               Quick Links
             </h4>
             <ul className="space-y-3">
@@ -98,12 +97,11 @@ export default function Footer() {
                   Support Center
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
-
-          {/* Services */}
+          {/* {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-6">Services</h4>
+            {/* <h4 className="text-lg font-semibold text-white mb-6">Services</h4>
             <ul className="space-y-3">
               <li>
                 <a
@@ -145,9 +143,8 @@ export default function Footer() {
                   Domain Registration
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
-
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold text-white mb-6">
@@ -174,7 +171,7 @@ export default function Footer() {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-3">
+              {/* <div className="flex items-start space-x-3">
                 <svg
                   className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0"
                   fill="none"
@@ -192,9 +189,9 @@ export default function Footer() {
                   <p className="text-gray-300">1-800-HOSTING</p>
                   <p className="text-gray-400 text-sm">Mon-Fri 9AM-6PM EST</p>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="flex items-start space-x-3">
+              {/* <div className="flex items-start space-x-3">
                 <svg
                   className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0"
                   fill="none"
@@ -212,7 +209,7 @@ export default function Footer() {
                   <p className="text-gray-300">Live Chat</p>
                   <p className="text-gray-400 text-sm">Available 24/7</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -225,7 +222,7 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-wrap justify-center md:justify-end space-x-6 text-sm">
-              <a
+              {/* <a
                 href="#"
                 className="text-gray-400 hover:text-white transition-colors duration-200"
               >
@@ -242,7 +239,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-white transition-colors duration-200"
               >
                 Cookie Policy
-              </a>
+              </a> */}
             </div>
 
             <div className="text-gray-400 text-sm">
@@ -260,6 +257,19 @@ export default function Footer() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="text-gray-400 text-sm text-center pb-2">
+        <p>
+          Powered by{" "}
+          <a
+            href="https://ifastnet.com/?aff=31176"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            ifastnet
+          </a>
+        </p>
       </div>
     </footer>
   );

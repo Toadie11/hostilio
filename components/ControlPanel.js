@@ -109,7 +109,7 @@ export default function ControlPanel() {
         </div>
 
         <a
-          href="http://control.hostilio.cloud/"
+          href="https://control.hostilio.cloud/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition duration-300 shadow-lg hover:shadow-xl"

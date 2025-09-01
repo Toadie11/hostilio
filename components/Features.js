@@ -42,7 +42,7 @@ export default function Features() {
           />
         </svg>
       ),
-      title: "50,000 Monthly Hits",
+      title: "50,000 Daily Hits",
       description:
         "Handle substantial traffic with our generous monthly visitor allowance",
     },

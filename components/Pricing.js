@@ -1,44 +1,43 @@
 export default function Pricing() {
   const plans = [
     {
-      name: "Starter",
-      price: "$2.99",
+      name: "Starter/Free",
+      price: "$0",
       period: "/month",
       features: [
-        "1 Website",
-        "10GB SSD Storage",
-        "Free SSL Certificate",
-        "24/7 Support",
+        "unmetered bandwidth",
+        "5gb disk space",
+        "50k hits / requests per day",
+        "PHP and MySQL",
+        "No ads on your site",
         "99.9% Uptime",
-      ],
-      popular: false,
-    },
-    {
-      name: "Professional",
-      price: "$5.99",
-      period: "/month",
-      features: [
-        "10 Websites",
-        "50GB SSD Storage",
-        "Free SSL Certificate",
-        "24/7 Support",
-        "Daily Backups",
-        "Free Domain",
+        "completely free no catch. ",
       ],
       popular: true,
     },
     {
-      name: "Business",
-      price: "$12.99",
+      name: "Super Premium",
+      price: "$5.99",
       period: "/month",
       features: [
-        "Unlimited Websites",
-        "100GB SSD Storage",
-        "Free SSL Certificate",
-        "24/7 Priority Support",
-        "Daily Backups",
-        "Free Domain",
-        "CDN Included",
+        "250GB bandwithd",
+        "free SSL certificate",
+        "6 domains can be added",
+        "latest cpanel and softaculous",
+        "NVME powered servers",
+      ],
+      popular: false,
+    },
+    {
+      name: "Ultimate premium",
+      price: "$8.99",
+      period: "/month",
+      features: [
+        "unlimited bandwidth",
+        "free ssl certificate",
+        "21 domains",
+        "latest cpanel and softaculous",
+        "NVME powered servers",
       ],
       popular: false,
     },
@@ -103,6 +102,9 @@ export default function Pricing() {
                 </ul>
 
                 <button
+                  onClick={() =>
+                    window.open("https://ifastnet.com/?aff=31176", "_blank")
+                  }
                   className={`w-full py-3 px-6 rounded-lg font-semibold transition duration-300 ${
                     plan.popular
                       ? "bg-blue-600 text-white hover:bg-blue-700"

@@ -1,25 +1,22 @@
-# Hostilio Website TODO
+# Hostilio Website - Add Navigation to Pricing Buttons
 
-## ✅ Completed Tasks
+## Task: Make "Get Started" buttons navigate to control panel
 
-### Control Panel Section Addition
+### Plan:
 
-- [x] Created `components/ControlPanel.js` with:
-  - Dark theme section (gray-900 background)
-  - Control panel icon and main heading
-  - Three feature highlights (File Management, Database Control, Analytics & Stats)
-  - Prominent "Access Control Panel" button linking to http://control.hostilio.cloud/
-  - Responsive design matching existing components
-- [x] Updated `pages/index.js` to:
-  - Import the new ControlPanel component
-  - Add ControlPanel section above CTA section
-- [x] Design features implemented:
-  - Consistent styling with existing components
-  - Proper spacing and typography
-  - Hover effects and transitions
-  - External link with proper security attributes (target="\_blank" rel="noopener noreferrer")
-  - Mobile-responsive grid layout
+- [x] Analyze current Pricing.js component structure
+- [x] Confirm requirements (same URL, new tab for all buttons)
+- [x] Update Pricing.js component to add onClick handler
+- [x] Implementation completed successfully
 
-## 🎯 Task Summary
+### Implementation Details:
 
-Successfully added a new Control Panel section to the Hostilio website with a button that links to http://control.hostilio.cloud/. The section is positioned above the CTA section and follows the existing design patterns and styling conventions.
+- URL: https://control.hostilio.cloud/
+- Behavior: Open in new tab
+- Apply to: All three pricing plan buttons (Starter/Free, Super Premium, Business)
+
+### Changes Made:
+
+- Added onClick handler to the "Get Started" button in components/Pricing.js
+- Used `window.open("https://control.hostilio.cloud/", "_blank")` to open URL in new tab
+- All three pricing plan buttons now have the same navigation functionality
